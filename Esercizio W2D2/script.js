@@ -278,11 +278,14 @@ for (let i = 0; i < inventario.length; i++) {
    Stampa "inverso".
    Vincolo: niente metodo .reverse() di JavaScript.
 */
+
+/*
 let stilosi = [1, 2, 3, 4, 5];
 let inversi = [];
 
-for (let i = 0;i < 6; i++) {
-      inversi.push(i);
+for (let i = stilosi.length - 1;i >= 0; i--) {
+  inversi.push(stilosi[i]);
 }
+
  console.log(inversi)
-/* SCRIVI QUI LA TUA RISPOSTA */
+*/
