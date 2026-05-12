@@ -279,13 +279,13 @@ for (let i = 0; i < inventario.length; i++) {
    Vincolo: niente metodo .reverse() di JavaScript.
 */
 
-/*
+
 let stilosi = [1, 2, 3, 4, 5];
 let inversi = [];
 
-for (let i = stilosi.length - 1;i >= 0; i--) {
-  inversi.push(stilosi[i]);
+for (let i = stilosi.length;i >= 1; i--) {
+  inversi.push(stilosi[i - 1]);
 }
 
  console.log(inversi)
-*/
+
